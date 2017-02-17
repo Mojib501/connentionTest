@@ -9,11 +9,19 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.mojib.connection.MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:weightSum="1">
 
     <Button
         android:text="Connect"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button_connection" />
+
+    <TextView
+        android:text="Showing Devices: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_weight="0.46" />
 </LinearLayout>
